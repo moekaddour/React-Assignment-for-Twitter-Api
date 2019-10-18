@@ -33,9 +33,3 @@ let connectedTrump = connect(store => {
   return { tweets: store.trumpTweets };
 })(Trump);
 export default connectedTrump;
-
-// <div key={tweet.id}>
-//           <h4>{tweet.user.name}</h4>
-//           <p>{tweet.text}</p>
-//           <h5>{tweet.created_at}</h5>
-//          </div>
